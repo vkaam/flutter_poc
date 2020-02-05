@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'main.dart';
-
 class Styles {
   static const double hzScreenPadding = 18;
 
   static final TextStyle baseTitle =
-      TextStyle(fontSize: 11, fontFamily: 'Roboto', package: MyApp.pkg);
+      TextStyle(fontSize: 11, fontFamily: 'Roboto');
   static final TextStyle baseBody =
-      TextStyle(fontSize: 11, fontFamily: 'OpenSans', package: MyApp.pkg);
+      TextStyle(fontSize: 11, fontFamily: 'OpenSans');
 
   static final TextStyle appHeader =
       baseTitle.copyWith(color: Color(0xFF0e0e0e), fontSize: 36, height: 1);

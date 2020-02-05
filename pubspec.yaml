@@ -4,7 +4,7 @@ description: An example project for poc about flutter.
 version: 0.1.0
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.5.2 <3.0.0'
   # The example interacts with build scripts on the Flutter side that are not
   # yet stable, so it requires a very recent version of Flutter.
   # This version will increase regularly as the build scripts change.
@@ -14,11 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flare_dart: 2.2.5
   cupertino_icons: ^0.1.0
-  path: ^1.6.4
-  shared:
-    path: lib/packages/_shared/
   random_color: ^1.0.3
 
 dev_dependencies:
@@ -27,7 +23,7 @@ dev_dependencies:
 
 flutter:
   assets:
-   - ./images/
+   - images/
   uses-material-design: true
 
   # See https://github.com/flutter/flutter/wiki/Desktop-shells#fonts

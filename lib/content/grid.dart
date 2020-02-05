@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:shared/ui/placeholder/placeholder_image_with_text.dart';
+import '../placeholder_image_with_text.dart';
 
 class GridContent extends StatelessWidget {
   @override

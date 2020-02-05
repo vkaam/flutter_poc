@@ -55,12 +55,4 @@ class _HotelListViewState extends State<HotelList>
       ),
     );
   }
-
-  Widget _buildStars(int count) {
-    List<Widget> stars = [];
-    for (int i = 0; i < count; i++) {
-      stars.add(Icon(Icons.star, color: Color(0xFFfeda7d), size: 13));
-    }
-    return Row(children: stars);
-  }
 }

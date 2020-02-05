@@ -37,11 +37,11 @@ List<Session> sessions = [
       "Een benadering van microservices met Micronaut waarin we de verschillen tussen platformen weergeven en hierbij ook laten zien hoe er met testing, security en deployment moet omgegaan worden. Ook technologieën om de verschillende microservices te analyseren worden besproken.",
       "23.png"),
   new Session(
-      17,
+      27,
       ["Quinten Mortier", "Senne Verhaegen"],
       "Reactive vs non-reactive spring applicaties",
       "De groei van devices en data is enorm. Dit heeft gevolgen voor onze applicaties. Grote datastromen moeten kunnen verwerkt worden in een vlotte en efficiënte manier om snelle responstijd te bereiken.  Reactive systems kunnen ons hier enorm bij helpen. Daarom nemen wij jullie mee in de wereld van java, meer specifiek het Spring framework. We kijken naar de verschillen tussen reactive en non-reactive Spring applications. Wat zijn de voordelen of nadelen? Wanneer kiezen we voor een reactive stack? Hoe werken we met streams en databases? Etc.",
-      "17.png"),
+      "27.png"),
   new Session(
       16,
       ["Swaelen Jelle", "Van Laer Seppe", "Bax Ryan", "Van Steenacker Axl"],
@@ -74,7 +74,12 @@ List<Session> sessions = [
       "17.png"),
   new Session(
       21,
-      ["Brent Boderé", "Niels Van Reeth", "Mees Van Kaam", "Massimo Prencipe"],
+      [
+        "Anton Thomas",
+        "Alexander Versweyveld",
+        "Mattias Goossens",
+        "Benjamin Janssens"
+      ],
       "Progressive Web Applications",
       "Progressive Web Applications; een term die in de wereld van web development de laatste tijd enorm aan populariteit wint. Maar wat zijn PWA’s nu precies? Van waar komt die plotse stijging in populariteit? We bespreken onze bevindingen en vergelijken de technologie van PWA met alternatieven zoals React Native en native Android apps.",
       "21.png"),

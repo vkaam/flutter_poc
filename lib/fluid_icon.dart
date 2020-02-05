@@ -1,7 +1,7 @@
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
-import 'package:shared/ui/path_util.dart';
+import './path_util.dart';
 
 // Users of this class shouldn't have to explicitly import fluid_icon_data
 import './fluid_icon_data.dart';

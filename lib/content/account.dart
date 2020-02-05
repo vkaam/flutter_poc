@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:shared/ui/placeholder/placeholder_card_short.dart';
+import '../placeholder_card_short.dart';
 
 class AccountContent extends StatelessWidget {
   @override

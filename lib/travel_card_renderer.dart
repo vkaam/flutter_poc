@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
 import 'styles.dart';
 import './content/data.dart';
 
@@ -107,7 +106,6 @@ class TravelCardRenderer extends StatelessWidget {
           path,
           height: cardHeight * .40,
           width: width,
-          package: MyApp.pkg,
         ));
   }
 }

@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import '../demo_h.dart';
-import '../hotel_list.dart';
-import '../travel_card_list.dart';
-import '../styles.dart';
 
 class HomeContent extends StatelessWidget {
   @override
