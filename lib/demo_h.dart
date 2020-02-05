@@ -33,14 +33,11 @@ class _TravelCardDemoState extends State<TravelCardDemo> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Expanded(child: SizedBox()),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: Styles.hzScreenPadding),
-              child: Text(
-                'Student Conference',
-                overflow: TextOverflow.ellipsis,
-                style: Styles.appHeader,
-                maxLines: 2,
-              ),
+            Text(
+              'Student Conference',
+              overflow: TextOverflow.ellipsis,
+              style: Styles.appHeader,
+              maxLines: 2,
             ),
             TravelCardList(
               sessions: _sessionList,

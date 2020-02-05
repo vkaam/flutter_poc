@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:poc_flutter/session_hero_page.dart';
 import 'styles.dart';
 import './content/data.dart';
 
@@ -17,28 +18,38 @@ class TravelCardRenderer extends StatelessWidget {
     return Container(
       width: cardWidth,
       margin: EdgeInsets.only(top: 8),
-      child: Stack(
-        overflow: Overflow.visible,
-        alignment: Alignment.center,
-        children: <Widget>[
-          // Card background color & decoration
-          Container(
-            margin: EdgeInsets.only(top: 30, left: 12, right: 12, bottom: 12),
-            decoration: BoxDecoration(
-              color: session.teamColor,
-              borderRadius: BorderRadius.circular(8),
-              boxShadow: [
-                BoxShadow(color: Colors.black12, blurRadius: 4 * offset.abs()),
-                BoxShadow(
-                    color: Colors.black12, blurRadius: 10 + 6 * offset.abs()),
-              ],
-            ),
+      child: GestureDetector(
+        onTap: () => Navigator.push(context,
+            MaterialPageRoute(builder: (context) => SessionHeroPage(session))),
+        child: Hero(
+          tag: session.id,
+          child: Stack(
+            overflow: Overflow.visible,
+            alignment: Alignment.center,
+            children: <Widget>[
+              // Card background color & decoration
+              Container(
+                margin:
+                    EdgeInsets.only(top: 30, left: 12, right: 12, bottom: 12),
+                decoration: BoxDecoration(
+                  color: session.teamColor,
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [
+                    BoxShadow(
+                        color: Colors.black12, blurRadius: 4 * offset.abs()),
+                    BoxShadow(
+                        color: Colors.black12,
+                        blurRadius: 10 + 6 * offset.abs()),
+                  ],
+                ),
+              ),
+              // City image, out of card by 15px
+              Positioned(top: -15, child: _buildCityImage()),
+              // City information
+              _buildCityData()
+            ],
           ),
-          // City image, out of card by 15px
-          Positioned(top: -15, child: _buildCityImage()),
-          // City information
-          _buildCityData()
-        ],
+        ),
       ),
     );
   }

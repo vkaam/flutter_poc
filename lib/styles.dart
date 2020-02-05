@@ -12,9 +12,14 @@ class Styles {
       baseTitle.copyWith(color: Color(0xFF0e0e0e), fontSize: 36, height: 1);
 
   static final TextStyle cardTitle =
-      baseTitle.copyWith(height: 1, color: Color(0xFF484848), fontSize: 25);
+      baseTitle.copyWith(height: 1, color: Color(0xFF484848), fontSize: 22);
   static final TextStyle cardSubtitle =
       baseBody.copyWith(color: Color(0xFF484848), height: 1.5, fontSize: 10);
+
+  static final TextStyle heroTitle =
+      baseTitle.copyWith(height: 1, color: Colors.black, fontSize: 32);
+  static final TextStyle heroSubtitle =
+      baseBody.copyWith(color: Color(0xFF484848), height: 1.5, fontSize: 18);
   static final TextStyle cardAction = baseBody.copyWith(
       color: Color(0xFF484848),
       fontSize: 10,
