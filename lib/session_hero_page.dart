@@ -33,7 +33,7 @@ class SessionHeroPage extends StatelessWidget {
                 child: Text(session.description, style: Styles.heroSubtitle))),
         FlatButton(
             color: Colors.grey[300],
-            child: new Text('Cancel'),
+            child: new Text('Back'),
             onPressed: () {
               Navigator.pop(context);
             }),
