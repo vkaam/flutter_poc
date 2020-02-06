@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'hotel_list.dart';
+import 'team_member_list.dart';
 import 'styles.dart';
 import './content/data.dart';
-import 'travel_card_list.dart';
+import 'session_card_list.dart';
 
 class TravelCardDemo extends StatefulWidget {
   @override

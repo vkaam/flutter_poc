@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:poc_flutter/content/data.dart';
 import './content/data.dart';
 import 'rotation_3d.dart';
-import 'travel_card_renderer.dart';
+import 'session_card_renderer.dart';
 
 class TravelCardList extends StatefulWidget {
   final List<Session> sessions;
